@@ -1,1 +1,1 @@
-# Scala
+Scala snippets
