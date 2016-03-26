@@ -1,10 +1,11 @@
 
-// This program prints Hello World string n number of times.
-object PrintHelloWorld {
-    def main(args: Array[String]) {
-      f(args[1]) 
+// This program prints Hello World string 4 times.
+object PrintHello {
+  def main(args: Array[String]) {
+      f(4) 
     }
-   def f(n: Int) = {
+    
+  def f(n: Int) = {
        var index = 0
        while (index < n) {
            println("Hello World")
